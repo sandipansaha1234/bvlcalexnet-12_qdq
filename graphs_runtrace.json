@@ -1,0 +1,22 @@
+{
+  "header": {
+    "header_version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    },
+    "version": {
+      "major": 1,
+      "minor": 1,
+      "patch": 0
+    },
+    "artifact_type": "RUN_TRACE"
+  },
+"traceEvents": [
+{ "name": "Overall", "ph": "X", "tid": 0, "pid": 0, "ts": 1204572024453, "dur": 65222, "args": {"graph_name": "bvlcalexnet_12_qdq", "stat_start_ticks": 1204572024453, "stat_end_ticks": 1204572089675, "stat_start_cycles": 1186510298979, "stat_end_cycles": 1186512907846, "summary_htp_frequency_ghz": 0.767996, "summary_inf/s": 294.379, "summary_time_us": 3396.98} },
+{ "name": "VTCM Acquire", "ph": "X", "tid": 0, "pid": 0, "ts": 1204572024554, "dur": 4302, "args": {"graph_name": "bvlcalexnet_12_qdq", "stat_start_ticks": 1204572024554, "stat_end_ticks": 1204572028856, "stat_start_cycles": 1186510303020, "stat_end_cycles": 1186510475100, "summary_htp_frequency_ghz": 0.768, "summary_inf/s": 4463.04, "summary_time_us": 224.062} },
+{ "name": "Resource Power On", "ph": "X", "tid": 0, "pid": 0, "ts": 1204572028923, "dur": 2337, "args": {"graph_name": "bvlcalexnet_12_qdq", "stat_start_ticks": 1204572028923, "stat_end_ticks": 1204572031260, "stat_start_cycles": 1186510477776, "stat_end_cycles": 1186510571241, "summary_htp_frequency_ghz": 0.767877, "summary_inf/s": 8215.66, "summary_time_us": 121.719} },
+{ "name": "Inference", "ph": "X", "tid": 0, "pid": 0, "ts": 1204572031460, "dur": 57961, "args": {"graph_name": "bvlcalexnet_12_qdq", "stat_start_ticks": 1204572031460, "stat_end_ticks": 1204572089421, "stat_start_cycles": 1186510579266, "stat_end_cycles": 1186512897713, "summary_htp_frequency_ghz": 0.768002, "summary_inf/s": 331.257, "summary_time_us": 3018.8} },
+{ "cat": "__metadata", "pid": 0, "tid": 0, "ph": "M", "name": "thread_name", "args": {"name": "Core 0 Execs"}},
+{ "cat": "__metadata", "pid": 0, "ph": "M", "name": "process_name", "args": {"name": "bvlcalexnet_12_qdq Runtraces"}}
+]}
